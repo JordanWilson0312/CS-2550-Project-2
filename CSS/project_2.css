@@ -1,0 +1,83 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12pt;
+    background-image: url("../images/marble2.webp");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 30pt;
+    font-family: copperplate;
+    animation-name: nameAnim;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+    animation-delay: .5s;
+}
+
+@keyframes nameAnim {
+    0% {color: black; transform: translate(-360px, 360px)}
+    50% {color: green; transform: translate(360px, 180px);}
+    100% {color: black; transform: translate(0px, 0px);}
+}
+
+img {
+    float: right;
+    border-radius: 15px;
+    margin-bottom: 2em;
+}
+
+h2 {
+    margin-top: .75em;
+    margin-bottom: .25;
+    font-family: copperplate;
+}
+
+td {
+    text-align: left; 
+    vertical-align: top;
+}
+
+.cs2550 {
+    background-color: #e3faed;
+    text-align: center;
+    vertical-align: center;
+}
+
+.cs2370 {
+    background-color: #ece3fa;
+    text-align: center;
+    vertical-align: center;
+}
+
+.cs2420 {
+    background-color: #e3f1fa;
+    text-align: center;
+    vertical-align: center;
+}
+
+.cs2600 {
+    background-color: #fae3ea;
+    text-align: center;
+    vertical-align: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 600px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.floatingBox {
+    width: 75%;
+    margin: 100px auto;     /* auto centers horizontally */
+    padding: 20px;
+    background-image: url("../images/page_background.avif");
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+}
